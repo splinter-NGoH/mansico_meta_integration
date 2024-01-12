@@ -1,5 +1,5 @@
 ## Mansico Meta Integration
-![image](https://github.com/splinter-NGoH/mansico_meta_integration/assets/73743592/e094a80e-cda4-496d-a4b8-13521e122c63)
+![logo](https://github.com/splinter-NGoH/mansico_meta_integration/assets/73743592/4080cbd5-6f5f-48fe-877d-e28e5e795bf8)
 
 This project is about syncing Facebook leads with ERPnext, When Clients fill Facebook ads instant forms app automatic fetch new created leads and create lead automatic in Lead doctype. Also on changing the Lead Status the new status sent to meta Pixel.
 
@@ -101,15 +101,47 @@ after creating your app go through Marketing Api Set up
   ![image](https://github.com/splinter-NGoH/mansico_meta_integration/assets/73743592/ca090b9a-1cb7-4037-a221-de733f571b54)
 
 
+---
+
+Now you almost Ready 
+
+now fill the api url and graph api version like img below 
+
+![image](https://github.com/splinter-NGoH/mansico_meta_integration/assets/73743592/d802a857-7807-4cd6-ae4e-cef10466816a)
 
 
+---
+
+now go to Page ID doctype and add you page name and id 
+
+![image](https://github.com/splinter-NGoH/mansico_meta_integration/assets/73743592/164bbb69-9539-4579-a7bf-568d91c74bcc)
 
 
+now go too  New Read By 
+
+and add 
+![image](https://github.com/splinter-NGoH/mansico_meta_integration/assets/73743592/ed73238f-a54b-4c67-a515-f3d0d23f9072)
 
 
+`All Leads` as img above make sure you spell it right
 
+---
 
+Finally got to sync new add 
 
+and create new sync
+
+![image](https://github.com/splinter-NGoH/mansico_meta_integration/assets/73743592/4cbc636a-181b-483d-9e25-7bc15cf9c5dd)
+
+after saving and submit it will fetch all current available forms and make schedule job depends on the Event Frequency you choose to fetch and create new leads for every interval you choos 
+
+![datad](https://github.com/splinter-NGoH/mansico_meta_integration/assets/73743592/15e25a56-9c67-4df3-ac51-c10d58424912)
+
+---
+
+Now your job is queued 
+
+![datad](https://github.com/splinter-NGoH/mansico_meta_integration/assets/73743592/f822733d-4c45-49b6-8ad9-fd8bbe30d09e)
 
 ---
 
