@@ -1,0 +1,121 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-01-12 04:03:00.629477",
+ "default_view": "List",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_0lkx",
+  "last_sync_datetime",
+  "app_secret",
+  "audience_name",
+  "pixel_id",
+  "pixel_access_token",
+  "graph_api_version",
+  "column_break_nezf",
+  "access_token",
+  "ad_account_id",
+  "audience_retention_days",
+  "app_id",
+  "api_url"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_0lkx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "last_sync_datetime",
+   "fieldtype": "Float",
+   "label": "last sync datetime",
+   "read_only": 1
+  },
+  {
+   "fieldname": "app_secret",
+   "fieldtype": "Data",
+   "label": "app_secret"
+  },
+  {
+   "fieldname": "audience_name",
+   "fieldtype": "Data",
+   "label": "audience_name"
+  },
+  {
+   "fieldname": "pixel_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "pixel_id",
+   "reqd": 1
+  },
+  {
+   "fieldname": "pixel_access_token",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Pixel Access Token",
+   "reqd": 1
+  },
+  {
+   "fieldname": "graph_api_version",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Graph API Version",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_nezf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "access_token",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Access Tocken",
+   "reqd": 1
+  },
+  {
+   "fieldname": "ad_account_id",
+   "fieldtype": "Data",
+   "label": "ad_account_id"
+  },
+  {
+   "fieldname": "audience_retention_days",
+   "fieldtype": "Data",
+   "label": "audience_retention_days"
+  },
+  {
+   "fieldname": "app_id",
+   "fieldtype": "Data",
+   "label": "app_id"
+  },
+  {
+   "fieldname": "api_url",
+   "fieldtype": "Data",
+   "label": "API URL",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-01-12 04:03:00.629477",
+ "modified_by": "Administrator",
+ "module": "Mansico Meta Integration",
+ "name": "Meta Facebook Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,72 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-01-12 04:02:17.085239",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "form_id",
+  "form_name",
+  "created_time",
+  "leads_count",
+  "page",
+  "questions"
+ ],
+ "fields": [
+  {
+   "fieldname": "form_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Form Id",
+   "read_only": 1
+  },
+  {
+   "fieldname": "form_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Form",
+   "read_only": 1
+  },
+  {
+   "fieldname": "created_time",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "created_time",
+   "read_only": 1
+  },
+  {
+   "fieldname": "leads_count",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "leads_count",
+   "read_only": 1
+  },
+  {
+   "fieldname": "page",
+   "fieldtype": "JSON",
+   "in_list_view": 1,
+   "label": "page",
+   "read_only": 1
+  },
+  {
+   "fieldname": "questions",
+   "fieldtype": "JSON",
+   "label": "questions",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-01-12 04:02:17.085239",
+ "modified_by": "Administrator",
+ "module": "Mansico Meta Integration",
+ "name": "Meta Forms",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

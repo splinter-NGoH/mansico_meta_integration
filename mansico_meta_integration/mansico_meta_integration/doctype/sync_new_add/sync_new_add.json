@@ -1,0 +1,175 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2024-01-12 04:09:09.565387",
+ "default_view": "List",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_qhoi",
+  "amended_from",
+  "column_break_jjze",
+  "naming_series",
+  "ad_details_section",
+  "read_by",
+  "column_break_htek",
+  "based_on",
+  "column_break_zbhi",
+  "last_sync_time",
+  "section_break_msmq",
+  "page_id",
+  "form_id",
+  "column_break_blgv",
+  "event_frequency",
+  "meta_forms_section",
+  "force_fetch",
+  "table_hsya",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_qhoi",
+   "fieldtype": "Section Break",
+   "read_only": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Sync New Add",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "column_break_jjze",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "label": "naming_series",
+   "options": "AD-SYNC-"
+  },
+  {
+   "fieldname": "ad_details_section",
+   "fieldtype": "Section Break",
+   "label": "AD Details"
+  },
+  {
+   "fieldname": "read_by",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Read",
+   "options": "Read By",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_htek",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "based_on",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Based On",
+   "options": "\nPage ID",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_zbhi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "read_by.last_sync_time",
+   "fieldname": "last_sync_time",
+   "fieldtype": "Float",
+   "label": "Last Sync Time",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_msmq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "depends_on": "eval:doc.based_on==\"Page ID\"",
+   "fieldname": "page_id",
+   "fieldtype": "Link",
+   "label": "Page ID",
+   "mandatory_depends_on": "eval:doc.based_on==\"Page ID\"",
+   "options": "Page ID"
+  },
+  {
+   "depends_on": "eval:doc.based_on==\"Form ID\"",
+   "fieldname": "form_id",
+   "fieldtype": "Data",
+   "label": "Form ID"
+  },
+  {
+   "fieldname": "column_break_blgv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "event_frequency",
+   "fieldtype": "Select",
+   "label": "Event Frequency",
+   "options": "All\nHourly\nDaily\nWeekly\nMonthly\nYearly\nHourly Long\nDaily Long\nWeekly Long\nMonthly Long"
+  },
+  {
+   "fieldname": "meta_forms_section",
+   "fieldtype": "Section Break",
+   "label": "Meta Forms"
+  },
+  {
+   "default": "1",
+   "fieldname": "force_fetch",
+   "fieldtype": "Check",
+   "label": "Force Fetch"
+  },
+  {
+   "description": "Uncheck Force Fetch to Remove form rows if you don't want to sync them.",
+   "fieldname": "table_hsya",
+   "fieldtype": "Table",
+   "options": "Meta Forms"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Sync New Add",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-01-12 04:09:09.565387",
+ "modified_by": "Administrator",
+ "module": "Mansico Meta Integration",
+ "name": "Sync New Add",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

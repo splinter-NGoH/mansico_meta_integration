@@ -1,0 +1,79 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"kV9jRvU-En\",\"type\":\"card\",\"data\":{\"card_name\":\"Facebook Integration\",\"col\":4}},{\"id\":\"KkNZ0g8hFS\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Meta Leads</span>\",\"col\":12}}]",
+ "creation": "2024-01-12 04:12:45.415313",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "color-review-points",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Meta Leads",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Facebook Integration",
+   "link_count": 4,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Meta Facebook Settings",
+   "link_count": 0,
+   "link_to": "Meta Facebook Settings",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Page ID",
+   "link_count": 0,
+   "link_to": "Page ID",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Read By",
+   "link_count": 0,
+   "link_to": "Read By",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Sync Leads",
+   "link_count": 0,
+   "link_to": "Sync New Add",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2024-01-12 04:13:07.395469",
+ "modified_by": "Administrator",
+ "module": "Mansico Meta Integration",
+ "name": "Meta Leads",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 1.0,
+ "shortcuts": [],
+ "title": "Meta Leads"
+}
