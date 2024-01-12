@@ -148,6 +148,14 @@ Now your job is queued
 
 ---
 
+to check every thing is fine go to Schedule Job Type you will find newely created sync 
+
+execute it manually by clicking on execute button top right
+
+![image](https://github.com/splinter-NGoH/mansico_meta_integration/assets/73743592/89f8893d-165e-4700-a939-76e8b5e9fa04)
+
+then you should find the new leads created in Lead Doctype 
+
 ### Dependencies:
 
 - [Frappe](https://github.com/frappe/frappe)
