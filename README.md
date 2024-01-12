@@ -1,6 +1,9 @@
 ## Mansico Meta Integration
-![logo](https://github.com/splinter-NGoH/mansico_meta_integration/assets/73743592/4080cbd5-6f5f-48fe-877d-e28e5e795bf8)
 
+<div align="center">
+    <img src="https://github.com/splinter-NGoH/mansico_meta_integration/assets/73743592/4080cbd5-6f5f-48fe-877d-e28e5e795bf8" height="128">
+    <h2>POS AWESOME</h2>
+</div>
 This project is about syncing Facebook leads with ERPnext, When Clients fill Facebook ads instant forms app automatic fetch new created leads and create lead automatic in Lead doctype. Also on changing the Lead Status the new status sent to meta Pixel.
 
 
