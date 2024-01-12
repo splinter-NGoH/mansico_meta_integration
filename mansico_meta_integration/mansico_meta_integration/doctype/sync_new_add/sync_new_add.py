@@ -83,7 +83,7 @@ class ServerScript():
             "name": str(str(self.doc.name).replace("-", "_")).lower(),
             "script_type": "Scheduler Event",
             "event_frequency": self.doc.event_frequency,
-            "module": "Meta Facebook Leads",
+            "module": "Mansico Meta Integration",
             "script": self.generate_script()
         })
     def generate_script(self):
