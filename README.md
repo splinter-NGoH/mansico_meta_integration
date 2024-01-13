@@ -14,7 +14,7 @@ This project is about syncing Facebook leads with ERPnext, When Clients fill Fac
 #### Frappe Cloud:
 
 One-click installing available if you are hosting on FC from [here](https://frappecloud.com/marketplace/apps/mansico_meta_integration)
-
+still didn't get the approve, stay tuned once accepted it will be live on FC
 #### Self Hosting:
 
 1. `bench get-app https://github.com/splinter-NGoH/mansico_meta_integration.git`
