@@ -30,8 +30,8 @@ from frappe.www.printview import get_visible_columns
 
 
 
-from frappe.utils.safe_exec import get_safe_globals, SERVER_SCRIPT_FILE_PREFIX, safe_exec_flags, patched_qb 
-
+from frappe.utils.safe_exec import get_safe_globals, safe_exec_flags, patched_qb 
+SERVER_SCRIPT_FILE_PREFIX = "<serverscript>"
 def safe_exec(
 	script: str,
 	_globals: dict | None = None,
