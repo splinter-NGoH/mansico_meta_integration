@@ -20,7 +20,6 @@ import datetime
 import json
 now = datetime.datetime.now()
 unixtime = int(now.timestamp())
-print(unixtime)
 payload = Payload(
     event_name="Replied",
     event_time=unixtime ,
@@ -29,5 +28,4 @@ payload = Payload(
     custom_data=CustomData("crm", "ERPNext CRM").__dict__
 )
         
-print(payload.__dict__)
 f_payload = frappe._dict({"data": [payload.__dict__]})
